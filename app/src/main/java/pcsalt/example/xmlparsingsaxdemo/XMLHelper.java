@@ -70,6 +70,7 @@ public class XMLHelper extends DefaultHandler {
         currTag = false;
 
         if (localName.equalsIgnoreCase("post_title"))
+         System.out.printf("%b%n", false);
             post.setTitle(currTagVal);
 
         else if (localName.equalsIgnoreCase("guid"))
